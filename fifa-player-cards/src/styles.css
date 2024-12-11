@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url('https://www.soccerbible.com/media/163387/fifa-8-min.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Darker semi-transparent background */
+}
+
+.container-lg {
+    width: 80%;
+    background: rgba(255, 255, 255, 0.9); /* Add a semi-transparent background to the content */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e6b800;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 2.2em;
+    color: #ffcc00;
+}
+
+img[alt="Profile"] {
+    border-radius: 50%;
+    margin-top: 15px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ffcc00;
+}
+
+.mt-3 {
+    margin-top: 1rem !important;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+/* VIP Navbar Styles */
+.navbar-vip {
+    background-color: #000;
+    border-bottom: 3px solid #ffcc00;
+}
+
+.navbar-vip .navbar-brand {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #ffcc00;
+}
+
+.navbar-vip .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.1em;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar-vip .navbar-nav .nav-link:hover {
+    color: #ffcc00;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%2870, 70, 70, 0.7%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.App-header{
+    color: #ffffff;
+}
